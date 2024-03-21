@@ -1,0 +1,102 @@
+body{
+  background-color: #252525;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-size: cover;
+  background-image: url('pattern.png');
+  padding: 0;
+  height: 100vh;
+}
+
+img{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.signin-container{
+  width: 602px;
+  height: 512px;
+  background-color:rgba(94, 94, 94, 0.346);
+  border-radius: 25px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  position: fixed;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.titles{
+  margin-top: -20px;
+  color: white;
+  font-weight: light;
+  text-align: center;
+}
+
+.sign-in{
+font-size: 36px;
+}
+
+.welcome-back{
+  font-size: 16px;
+  font-weight: normal; 
+  margin-top: -18px;
+  margin-bottom: 20px;
+}
+
+input{
+  background-color: transparent;
+  border: #D9D9D9 solid 1px;
+  color: #D9D9D9;
+  height: 56px;
+  width: 516px;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 20px;
+}
+
+
+button{
+  background-color: #3D6CBF;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  height: 56px;
+  width: 516px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.no-account, .forgot-password{
+  color: white;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.forgot-password{
+  margin-bottom: 20px;
+  padding-left: 400px;
+}
+
+.signup-text{
+  color: #99bfff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.radial{
+  background: radial-gradient( #4599FE, #4598fe44, #4598fe00, transparent);
+  height: 1600px;
+  width: 1300px;
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 50%;
+  position: fixed;
+  z-index: -1;
+}
